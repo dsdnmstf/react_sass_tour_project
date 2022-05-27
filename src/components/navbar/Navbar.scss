@@ -1,0 +1,20 @@
+@import "../../scss/variables";
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: $cardNavBgColor;
+    
+    
+    a{
+        font-size: 2rem;
+        padding: 1rem ;
+        color: white;
+        text-decoration: none;
+        &:hover{
+            background-color:  $backgroundColor;
+            color: $cardNavBgColor;
+            font-weight: 600;
+        }
+    }
+}
