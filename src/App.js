@@ -1,4 +1,5 @@
 import './App.scss';
+import Cards from './components/card/Cards';
 import Header from './components/header/Header';
 import Navbar from './components/navbar/Navbar';
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Navbar />
       <Header />
+      <Cards/>
     </div>
   );
 }
